@@ -14,3 +14,30 @@ html, body {
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Optional: subtle shadow for effect */
     border-radius: 8px; /* Optional: rounded corners */
   }
+
+  .overlay circle {
+    fill: steelblue;
+    fill-opacity: 0.5;
+    stroke: white;
+    stroke-width: 1;
+  }
+
+  circle {
+    pointer-events: auto;
+    fill-opacity: 0.7; /* Ensures that tooltips are accessible */
+}
+
+header {
+  display: flex;
+  gap: 1em;
+  align-items: baseline;
+}
+
+#selected-time, #any-time {
+  display: block; /* Ensure these are on their own line */
+}
+
+#any-time {
+  color: gray;
+  font-style: italic;
+}
