@@ -96,8 +96,8 @@ header {
   
   /* Shared color variables for both circles and legend */
   circle, .legend-item {
-    --color-departures: steelblue;
-    --color-arrivals: darkorange;
+    --color-departures: rgb(69, 124, 168);
+    --color-arrivals: rgb(194, 133, 60);
     --color: color-mix(
       in oklch,
       var(--color-departures) calc(100% * var(--departure-ratio)),
